@@ -556,7 +556,7 @@ with tab2:
         
         # Load data
             default=st.session_state.filters['establishment_groups']
-        )
+        
         
         # Phase filter
         phase_options = [""] + phases["PhaseOfEducation (name)"].tolist()
