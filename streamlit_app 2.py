@@ -44,12 +44,7 @@ tab1, tab2 = st.tabs(["Trust Overview", "National View"])
 
 with tab2:
     from datetime import datetime
-    
-    # Set page configuration
-    page_icon="🏫",
-    initial_sidebar_state="expanded"
-    )
-    
+     
     # Database connection
     @st.cache_resource
     def get_connection():
