@@ -87,7 +87,7 @@ with tab2:
     pass
     pass
         
-        search_term = search_term.lower()
+    search_term = search_term.lower()
         
         # Get all school names as a list
         school_names = all_schools['EstablishmentName'].tolist()
