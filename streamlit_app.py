@@ -90,7 +90,7 @@ with tab2:
     search_term = search_term.lower()
         
         # Get all school names as a list
-        school_names = all_schools['EstablishmentName'].tolist()
+    school_names = all_schools['EstablishmentName'].tolist()
         
         # Find schools that contain the search term
         matches = [name for name in school_names if search_term in name.lower()]
